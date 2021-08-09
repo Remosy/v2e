@@ -321,6 +321,9 @@ From root of v2e, run the following
 ```
 python v2e.py -i input/tennis.mov --overwrite --timestamp_resolution=.003 --auto_timestamp_resolution=False --dvs_exposure duration 0.005 --output_folder=output/tennis --overwrite --pos_thres=.15 --neg_thres=.15 --sigma_thres=0.03 --dvs_aedat2 tennis.aedat --output_width=346 --output_height=260 --stop_time=3 --cutoff_hz=15 
 ```
+```
+python v2e.py -i input/rain.mp4 --overwrite --timestamp_resolution=.003 --auto_timestamp_resolution=False --dvs_exposure duration 0.005 --output_folder=output/rain --overwrite --pos_thres=.15 --neg_thres=.15 --sigma_thres=0.03 --dvs_aedat2 rain.aedat --output_width=346 --output_height=260 --stop_time=3 --cutoff_hz=15 
+```
 Run the command above, and the following files will be created in a folder called _output/tennis_.
 
 ```
